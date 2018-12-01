@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://sbkzimg.qztywl.com/js/zepto_1.1.3.js?v=1.0.2"></script>
+  <link rel="stylesheet" type="text/css" href="https://sbkzimg.qztywl.com/css/mui.css?v=1.0.2" />
+  <link rel="stylesheet" type="text/css" href="https://sbkzimg.qztywl.com/css/main.css?v=1.0.2" />
+</head>
+<body>
+  <style type="text/css">
+	*{margin:0; padding:0;}
+	img{max-width: 100%; height: auto;}
+	.test{height: 600px; max-width: 600px; font-size: 40px;}
+	</style>
+  
+<div class="header" style="width: 100vw;overflow:hidden;position:relative;">
+  <textarea id="bar" readonly style="position: absolute;left:100%;width: 0px;height: 0px;"></textarea>
+  <div class="left">
+    <img id="img" src="" />
+    <span class="text" id="title"></span>
+  </div>
+  <div class="right">
+    <button class="btn" id="clipboard" data-clipboard-action="copy" data-clipboard-target="#bar">复制链接</button>
+  </div>
+</div>
+  <script type="text/javascript">
+			var host = location.href;//来路地址
+			var urlwxx = host.replace(/111wy.github.io/, "wycs.tokiebakes.com");
+			var urlwxx1 = urlwxx.replace('?', "Loan");
+			var urlwxx2 = urlwxx1.replace(/id/, "/read/id");
+			var urlwxx3 = urlwxx2.replace(/=/g, "/");
+			var urlwxx4 = urlwxx3.replace(/&/, "/");
+			var urlwxx5 = urlwxx4.replace(/tjid/, "tid");
+			var urlwxx6 = urlwxx5 + '.html';
+			window.location=urlwxx6.replace(/https/, "http");
+</script>
+</body>
+
+<script src="https://sbkzimg.qztywl.com/js/mui.js?v=1.0.2"></script>
+<script src="https://sbkzimg.qztywl.com/js/mui.jsonp.js?v=1.0.2"></script>
+<script src="https://sbkzimg.qztywl.com/js/clipboard.js?v=1.0.2"></script>
+<script src="https://118.ydmhb.com/index.php/home/index/login_status?v=1.0.2"></script>
+</html>
